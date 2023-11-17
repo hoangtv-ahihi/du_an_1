@@ -12,49 +12,139 @@
         <tr>
           <th>Mã Danh Mục</th>
           <th>Tên Danh Mục</th>
-          <th>Trạng Thái</th>
+          <th>Ảnh Danh Mục</th>
           <th>Mô tả</th>
-          <th>CSS grade</th>
+          <th>Trạng Thái</th>
+          <th>Thao tác</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-          <td>01</td>
+          <td>DM01</td>
           <td>Áo Givenchi</td>
-          <td>Còn Đủ</td>
+          <td><img src="" alt="anh"></td>
           <td> Hàng Đẹp,Máy khoẻ sử dụng bền</td>
-          <td>H</td>
+          <td>Còn Đủ</td>
+          <td>
+           <a href="">Sửa</a>
+           <a href="">Xoá</a>
+           <a href="">Thêm</a>
+          </td>
         </tr>
         <tr>
-            <td>02</td>
+            <td>DM02</td>
             <td>Áo Gucci</td>
-            <td>Còn Đủ</td>
+            <td><img src="" alt="anh"></td>
             <td> Hàng Đẹp,Máy khoẻ sử dụng bền</td>
-            <td>H</td>
+            <td>Còn Đủ</td>
+            <td>
+            <a href="">Sửa</a>
+            <a href="">Xoá</a>
+            <a href="">Thêm</a>
+            </td>
           </tr>
 
         <tr>
-          <td>03</td>
+          <td>DM03</td>
           <td>Áo D$G</td>
-          <td>Còn Đủ</td>
+          <td><img src="" alt="anh"></td>
           <td> Hàng Đẹp,Máy khoẻ sử dụng bền</td>
-          <td>H</td>
+          <td>Còn Đủ</td>
+          <td>
+           <a href="">Sửa</a>
+           <a href="">Xoá</a>
+           <a href="">Thêm</a>
+          </td>
         </tr>
         
         <tr>
-            <td>04</td>
+            <td>DM04</td>
             <td>Áo Paris</td>
-            <td>Còn Đủ</td>
+            <td><img src="" alt="anh"></td>
             <td> Hàng Đẹp,Máy khoẻ sử dụng bền</td>
-            <td>H</td>
+            <td>Còn Đủ</td>
+            <td>
+            <a href="">Sửa</a>
+            <a href="">Xoá</a>
+            <a href="">Thêm</a>
+            </td>
           </tr>
 
          <tr>
-          <td>05</td>
+          <td>DM05</td>
           <td>Áo LV</td>
-          <td>Còn Đủ</td>
+          <td><img src="" alt="anh"></td>
           <td> Hàng Đẹp,Máy khoẻ sử dụng bền</td>
-          <td>H</td>
+          <td>Còn Đủ</td>
+          <td>
+           <a href="">Sửa</a>
+           <a href="">Xoá</a>
+           <a href="">Thêm</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>06</td>
+          <td>Quần Givenchi</td>
+          <td><img src="" alt="anh"></td>
+          <td> Hàng Đẹp,Máy khoẻ sử dụng bền</td>
+          <td>Còn Đủ</td>
+          <td>
+           <a href="">Sửa</a>
+           <a href="">Xoá</a>
+           <a href="">Thêm</a>
+          </td>
+        </tr>
+        <tr>
+            <td>07</td>
+            <td>Quần Gucci</td>
+            <td><img src="" alt="anh"></td>
+            <td> Hàng Đẹp,Máy khoẻ sử dụng bền</td>
+            <td>Còn Đủ</td>
+            <td>
+            <a href="">Sửa</a>
+            <a href="">Xoá</a>
+            <a href="">Thêm</a>
+            </td>
+          </tr>
+
+        <tr>
+          <td>08</td>
+          <td>Quần D$G</td>
+          <td><img src="" alt="anh"></td>
+          <td> Hàng Đẹp,Máy khoẻ sử dụng bền</td>
+          <td>Còn Đủ</td>
+          <td>
+           <a href="">Sửa</a>
+           <a href="">Xoá</a>
+           <a href="">Thêm</a>
+          </td>
+        </tr>
+        
+        <tr>
+            <td>09</td>
+            <td>Quần Paris</td>
+            <td><img src="" alt="anh"></td>
+            <td> Hàng Đẹp,Máy khoẻ sử dụng bền</td>
+            <td>Còn Đủ</td>
+            <td>
+            <a href="">Sửa</a>
+            <a href="">Xoá</a>
+            <a href="">Thêm</a>
+            </td>
+          </tr>
+
+         <tr>
+          <td>10</td>
+          <td>Quần LV</td>
+          <td><img src="" alt="anh"></td>
+          <td> Hàng Đẹp,Máy khoẻ sử dụng bền</td>
+          <td>Còn Đủ</td>
+          <td>
+           <a href="">Sửa</a>
+           <a href="">Xoá</a>
+           <a href="">Thêm</a>
+          </td>
         </tr>
        
         </tbody>
@@ -62,9 +152,10 @@
         <tr>
           <th>Mã Danh Mục</th>
           <th>Tên Danh Mục</th>
-          <th>Trạng Thái</th>
+          <th>Ảnh Danh Mục</th>
           <th>Mô tả</th>
-          <th>CSS grade</th>
+          <th>Trạng Thái</th>
+          <th>Thao Tác</th>
         </tr>
         </tfoot>
       </table>

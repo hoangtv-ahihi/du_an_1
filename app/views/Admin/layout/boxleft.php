@@ -2,7 +2,7 @@
  <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
-      <img src="../../../../dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <img src="../../../../public/assets/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
       <span class="brand-text font-weight-light">ADMIN</span>
     </a>
 
@@ -11,7 +11,7 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="../../../../dist/img/tvh.jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="../../../../public/assets/dist/img/tvh.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="../AdminLTE-3.2.0/index.html" class="d-block">ELEVEN</a>
@@ -36,28 +36,28 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
               <li class="nav-item">
-              <a href="../../../controllers/AdminController.php?act=danhmuc" class="nav-link">Quản Trị Danh Mục</a>
+              <a href="../AdminController/AdminController.php?act=danhmuc" class="nav-link">Quản Trị Danh Mục</a>
                </li>
               <li class="nav-item">
-                <a href="" class="nav-link">Quản Trị Banner</a>
+                <a href="../AdminController/AdminController.php?act=banner" class="nav-link">Quản Trị Banner</a>
                </li>
               <li class="nav-item">
-                <a href="" class="nav-link">Quản Trị Khách hàng</a>
+                <a href="../AdminController/AdminController.php?act=khachhang" class="nav-link">Quản Trị Khách hàng</a>
                    </li>
               <li class="nav-item">
-                <a href="" class="nav-link">Quản Trị Bài Viết</a>
+                <a href="../AdminController/AdminController.php?act=baiviet" class="nav-link">Quản Trị Bài Viết</a>
                 </li>
               <li class="nav-item">
-                <a href="" class="nav-link">Quản Trị Sản Phẩm</a>
+                <a href="../AdminController/AdminController.php?act=sanpham" class="nav-link">Quản Trị Sản Phẩm</a>
                 </li>
               <li class="nav-item">
-                <a href="" class="nav-link">Quản Trị Đơn hàng</a>
+                <a href="../AdminController/AdminController.php?act=donhang" class="nav-link">Quản Trị Đơn hàng</a>
                 </li>
               <li class="nav-item">
-                <a href="" class="nav-link">Quản Trị Khuyến Mãi</a>
+                <a href="../AdminController/AdminController.php?act=khuyenmai" class="nav-link">Quản Trị Khuyến Mãi</a>
                 </li>
               <li class="nav-item">
-                <a href="" class="nav-link">Quản Trị Biến Thể</a>
+                <a href="../AdminController/AdminController.php?act=bienthe" class="nav-link">Quản Trị Biến Thể</a>
                 </li>
               <li class="nav-item">
                 <a href="" class="nav-link">Quản Trị Chi Tiết Đơn hàng</a>
