@@ -32,8 +32,24 @@ switch ($act){
     case 'bienthe':
         include '../bienthe/index.php';
         break;              
-       
-
+    case 'chitietdonhang':
+        include '../chitietdonhang/index.php';
+        break;      
+    case 'phanquyen':
+        include '../phanquyen/index.php';
+        break; 
+    case 'lienhe':
+        include '../lienhe/index.php';
+        break;    
+    case 'nguoidung':
+        include '../nguoidung/index.php';
+        break;    
+    case 'binhluan':
+        include '../binhluan/index.php';
+        break;
+    case 'hethong':
+        include '../hethong/index.php';
+        break;                   
 }
 } else {
     include "../layout/content.php";

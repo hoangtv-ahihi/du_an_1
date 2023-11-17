@@ -3,31 +3,25 @@
 
 <div class="card">
     <div class="card-header">
-      <h3 class="card-title">Quản Lý Khuyến Mãi</h3>
+      <h3 class="card-title">Quản Trị Phân Quyền</h3>
     </div>
     <!-- /.card-header -->
     <div class="card-body">
       <table id="example1" class="table table-bordered table-striped">
         <thead>
         <tr>
-          <th>ID khuyễn mãi</th>
-          <th>Mã Khuyễn mãi</th>
-          <th>% Khuyễn Mãi</th>
-          <th>Ngày Bắt Đầu</th>
-          <th>Ngày Kết thúc</th>
-          <th>Mô Tả</th>
+          <th>Mã liên hệ</th>
+          <th>Mã Khách hàng</th>
+          <th>Nội Dung</th>
           <th>Trạng Thái</th>
           <th>Thao tác</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-          <td>KM01</td>
-          <td>VHDZ01</td>
-          <td>50%</td>
-          <td>15/11/2023</td>
-          <td>17/11/2023</td>
-          <td>Khuyễn mãi cực sâu</td>
+          <td>LH01</td>
+          <td>KH01</td>
+          <td>Shop ơi áo đẹp quá vải sịn thoáng mát lên dáng rất dì và này lọ</td>
           <td>Hoạt Động</td>
           <td>
            <a href="">Sửa</a>
@@ -36,12 +30,9 @@
           </td>
         </tr>
         <tr>
-          <td>KM02</td>
-          <td>VHDZ02</td>
-          <td>40%</td>
-          <td>15/11/2023</td>
-          <td>17/11/2023</td>
-          <td>Khuyễn mãi cực sâu</td>
+          <td>LH02</td>
+          <td>KH02</td>
+          <td>Shop ơi áo đẹp quá vải sịn thoáng mát lên dáng rất dì và này lọ</td>
           <td>Hoạt Động</td>
           <td>
            <a href="">Sửa</a>
@@ -50,12 +41,9 @@
           </td>
         </tr>
         <tr>
-          <td>KM03</td>
-          <td>VHDZ03</td>
-          <td>30%</td>
-          <td>15/11/2023</td>
-          <td>17/11/2023</td>
-          <td>Khuyễn mãi cực sâu</td>
+          <td>LH03</td>
+          <td>KH03</td>
+          <td>Shop ơi quần đẹp quá dáng sang chảnh lên dáng rất dì và này lọ</td>
           <td>Hoạt Động</td>
           <td>
            <a href="">Sửa</a>
@@ -64,12 +52,9 @@
           </td>
         </tr>
         <tr>
-          <td>KM04</td>
-          <td>VHDZ04</td>
-          <td>20%</td>
-          <td>15/11/2023</td>
-          <td>17/11/2023</td>
-          <td>Khuyễn mãi cực sâu</td>
+          <td>LH04</td>
+          <td>KH04</td>
+          <td>Áo khoác rất đẹp trông không khách gì hàng autentic</td>
           <td>Hoạt Động</td>
           <td>
            <a href="">Sửa</a>
@@ -78,12 +63,9 @@
           </td>
         </tr>
         <tr>
-          <td>KM05</td>
-          <td>VHDZ05</td>
-          <td>15%</td>
-          <td>15/11/2023</td>
-          <td>17/11/2023</td>
-          <td>Khuyễn mãi cực sâu</td>
+          <td>LH05</td>
+          <td>KH05</td>
+          <td>Đặt hàng có lâu không shop?</td>
           <td>Hoạt Động</td>
           <td>
            <a href="">Sửa</a>
@@ -91,15 +73,12 @@
            <a href="">Thêm</a>
           </td>
         </tr>
-     </tbody>
-     <tfoot>
+        </tbody>
+        <tfoot>
         <tr>
-          <th>ID khuyễn mãi</th>
-          <th>Mã Khuyễn mãi</th>
-          <th>% Khuyễn Mãi</th>
-          <th>Ngày Bắt Đầu</th>
-          <th>Ngày Kết thúc</th>
-          <th>Mô Tả</th>
+          <th>Mã liên hệ</th>
+          <th>Mã Khách hàng</th>
+          <th>Nội Dung</th>
           <th>Trạng Thái</th>
           <th>Thao tác</th>
         </tr>

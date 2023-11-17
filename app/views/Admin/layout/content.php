@@ -1,6 +1,5 @@
 <div class="content-wrapper">
-    
-    <h1>Chào Mừng Bạn Đến Với trang QUẢN TRỊ</h1>
+    <h1  style="text-align:center; padding-top: 250px; color:blue;">Chào Mừng Bạn Đến Với Trang Quản Trị!!!</h1>
   </div>
 
   <!-- /.content-wrapper -->

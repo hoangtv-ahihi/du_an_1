@@ -3,79 +3,88 @@
 
 <div class="card">
     <div class="card-header">
-      <h3 class="card-title">Quản Lý Bài Viết</h3>
+      <h3 class="card-title">Quản Lý Chi Tiết Đơn hàng</h3>
     </div>
     <!-- /.card-header -->
     <div class="card-body">
       <table id="example1" class="table table-bordered table-striped">
         <thead>
         <tr>
-          <th>Mã Bài Viết</th>
-          <th>Tên Bài Viết</th>
-          <th>Nội Dung</th>
-          <th>Ảnh Bài Viết</th>
+          <th>Mã CT Đơn Hàng</th>
+          <th>MÃ Đơn Hàng</th>
+          <th>Mã Biến Thể</th>
+          <th>Số Lượng Sản phẩm</th>
+          <th>Ảnh sản phẩm</th>
+          <th>Tổng tiền</th>
           <th>Trạng Thái</th>
           <th>Thao tác</th>
         </tr>
         </thead>
         <tbody>
         <tr>
+          <td>CTDH01</td>
           <td>01</td>
-          <td>Bài Viết Về D$G</td>
-          <td>D&G Top đầu trong những lựa chọn của các thanh thiếu niên VN</td>
+          <td>BT01</td>
+          <td>3 sản phẩm</td>
           <td><img src="" alt="anh"></td>
-          <td>Hoạt Động</td>
+          <td>1.500.000vnđ</td>
+          <td>Còn Đủ</td>
           <td>
            <a href="">Sửa</a>
            <a href="">Xoá</a>
            <a href="">Thêm</a>
           </td>
         </tr>
-
         <tr>
+          <td>CTDH02</td>
           <td>02</td>
-          <td>Bài Viết Về Gucci</td>
-          <td>GUCCI Top đầu trong những lựa chọn của các thanh thiếu niên VN</td>
+          <td>BT01</td>
+          <td>1 sản phẩm</td>
           <td><img src="" alt="anh"></td>
-          <td>Hoạt Động</td>
+          <td>1.000.000vnđ</td>
+          <td>Còn Đủ</td>
           <td>
            <a href="">Sửa</a>
            <a href="">Xoá</a>
            <a href="">Thêm</a>
           </td>
         </tr>
-          <tr>
+        <tr>
+          <td>CTDH03</td>
           <td>03</td>
-          <td>Bài Viết Về LV</td>
-          <td>LV Top đầu trong những lựa chọn của các thanh thiếu niên VN</td>
+          <td>BT03</td>
+          <td>4 sản phẩm</td>
           <td><img src="" alt="anh"></td>
-          <td>Hoạt Động</td>
+          <td>1.800.000vnđ</td>
+          <td>Còn Đủ</td>
           <td>
            <a href="">Sửa</a>
            <a href="">Xoá</a>
            <a href="">Thêm</a>
           </td>
         </tr>
-
         <tr>
+          <td>CTDH04</td>
           <td>04</td>
-          <td>Bài Viết Về Luxury</td>
-          <td>Luxury Top đầu trong những lựa chọn của các thanh thiếu niên VN</td>
+          <td>BT04</td>
+          <td>8 sản phẩm</td>
           <td><img src="" alt="anh"></td>
-          <td>Hoạt Động</td>
+          <td>3.000.000vnđ</td>
+          <td>Còn Đủ</td>
           <td>
            <a href="">Sửa</a>
            <a href="">Xoá</a>
            <a href="">Thêm</a>
           </td>
         </tr>
-
         <tr>
+          <td>CTDH05</td>
           <td>05</td>
-          <td>Bài Viết Về DIOR</td>
-          <td>DIOR Top đầu trong những lựa chọn của các thanh thiếu niên VN</td>
+          <td>BT05</td>
+          <td>10 sản phẩm</td>
           <td><img src="" alt="anh"></td>
-          <td>Hoạt Động</td>
+          <td>8.000.000vnđ</td>
+          <td>Còn Đủ</td>
           <td>
            <a href="">Sửa</a>
            <a href="">Xoá</a>
@@ -85,10 +94,12 @@
         </tbody>
         <tfoot>
         <tr>
-          <th>Mã Bài Viết</th>
-          <th>Tên Bài Viết</th>
-          <th>Nội Dung</th>
-          <th>Ảnh Bài Viết</th>
+          <th>Mã CT Đơn Hàng</th>
+          <th>MÃ Đơn Hàng</th>
+          <th>Mã Biến Thể</th>
+          <th>Số Lượng Sản phẩm</th>
+          <th>Ảnh sản phẩm</th>
+          <th>Tổng tiền</th>
           <th>Trạng Thái</th>
           <th>Thao tác</th>
         </tr>

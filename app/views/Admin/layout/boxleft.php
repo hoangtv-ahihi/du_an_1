@@ -14,12 +14,12 @@
           <img src="../../../../public/assets/dist/img/tvh.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="../AdminLTE-3.2.0/index.html" class="d-block">ELEVEN</a>
+          <a href="../trangchu/index.php" class="d-block">ELEVEN</a>
         </div>
       </div>
 
       <!-- SidebarSearch Form -->
-      <div class="form-inline">
+      <!-- <div class="form-inline">
         <div class="input-group" data-widget="sidebar-search">
           <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
           <div class="input-group-append">
@@ -28,7 +28,7 @@
             </button>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- Sidebar Menu -->
       <nav class="mt-2">
@@ -60,17 +60,23 @@
                 <a href="../AdminController/AdminController.php?act=bienthe" class="nav-link">Quản Trị Biến Thể</a>
                 </li>
               <li class="nav-item">
-                <a href="" class="nav-link">Quản Trị Chi Tiết Đơn hàng</a>
+                <a href="../AdminController/AdminController.php?act=chitietdonhang" class="nav-link">Quản Trị Chi Tiết Đơn hàng</a>
                 </li>
               <li class="nav-item">
-                <a href="" class="nav-link">Quản Trị Phân Quyền</a>
+                <a href="../AdminController/AdminController.php?act=phanquyen" class="nav-link">Quản Trị Phân Quyền</a>
                 </li>
               <li class="nav-item">
-                <a href="" class="nav-link">Quản Trị Liên Hệ</a>
+                <a href="../AdminController/AdminController.php?act=lienhe" class="nav-link">Quản Trị Liên Hệ</a>
                 </li>
               <li class="nav-item">
-                <a href="" class="nav-link">Quản Trị Người Dùng</a>
-                </li>            
+                <a href="../AdminController/AdminController.php?act=nguoidung" class="nav-link">Quản Trị Người Dùng</a>
+                </li>   
+              <li class="nav-item">
+                <a href="../AdminController/AdminController.php?act=binhluan" class="nav-link">Quản Trị Bình Luận</a>
+                </li>     
+              <li class="nav-item">
+                <a href="../AdminController/AdminController.php?act=hethong" class="nav-link">Quản Trị Hệ Thống</a>
+                </li>                
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
