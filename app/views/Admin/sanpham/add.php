@@ -13,35 +13,35 @@
             <div class="card-body">
             <div class="form-group">
                 <label for="masp">Mã Sản Phẩm</label>
-                <input type="text" id="masp" class="form-control" value="">
+                <input type="text" id="masp" name="idsp" class="form-control" value="">
               </div>
               <div class="form-group">
                 <label for="tensp">Tên Sản Phẩm</label>
-                <input type="text" id="tensp" class="form-control" value="">
+                <input type="text" id="tensp" name="tensp" class="form-control" value="">
               </div>
               <div class="form-group">
                 <label for="anhsp">Ảnh sản phẩm</label>
-                <input type="file" id="anhsp" name="anhsp">
+                <input type="file" id="anhsp" name="img">
               </div>
               <div class="form-group">
                 <label for="motasp">Mô Tả Sản Phẩm</label>
-                <input type="text" id="motasp" class="form-control" value="">
+                <input type="text" id="motasp" name="mota" class="form-control" value="">
               </div>
               <div class="form-group">
                 <label for="ngaynhapsp">Ngày Nhập</label>
-                <input type="text" id="ngaynhapsp" class="form-control" value="">
+                <input type="text" id="ngaynhapsp" name="ngaynhap" class="form-control" value="">
               </div>
               <div class="form-group">
                 <label for="soluongsp">Số Lượng Sản Phẩm</label>
-                <input type="text" id="soluongsp" class="form-control" value="">
+                <input type="text" id="soluongsp" name="soluong" class="form-control" value="">
               </div>
               <div class="form-group">
                 <label for="madm">Mã danh mục</label>
-                <input type="text" id="madm" class="form-control" value="">
+                <input type="text" id="madm" name="id_dm" class="form-control" value="">
               </div>
               <div class="form-group">
-                <label for="inputProjectLeader">Trạng thái</label>
-                <select id="inputStatus" class="form-control custom-select">
+                <label for="trangthai">Trạng thái</label>
+                <select id="trangthai" name="trangthai" class="form-control custom-select">
                   <option disabled>Chọn 1</option>
                   <option>Còn hàng</option>
                   <option>Hết hàng</option>              

@@ -19,22 +19,134 @@
         </tr>
         </thead>
         <tbody>
-    <?php
-                    foreach ($listdanhmuc as $dm) :
-                        ?> <tr>
-                            <td><?php echo $dm['id_dm'] ?></td>
-                            <td><?php echo $dm['ten_dm'] ?></td>
-                            <td><?php echo $dm['mo_ta'] ?></td>
-                            <td><?php echo $dm['trang_thai'] ?></td>
-                            <td>
-                              <a href="AdminController.php?act=suadm&id=<?php echo $dm['id_danh_muc'];?>"><button type="button" class="btn btn-outline-danger">Sửa</button></a>
-                              <a href="AdminController.php?act=xoadm&id=<?php echo $dm['id_danh_muc'];?>" onclick="return confirm('Bạn có chắc chắn muốn xóa danh mục này không?');">
-                              <button type="button" class="btn btn-outline-dark">Xóa</button></a>
-                            </td>
-                    </tr>
-            
-                   <?php endforeach;
-                    ?>
+        <tr>
+          <td>DM01</td>
+          <td>Áo Givenchi</td>
+          <td><img src="" alt="anh"></td>
+          <td> Hàng Đẹp,Máy khoẻ sử dụng bền</td>
+          <td>Còn Đủ</td>
+          <td>
+           <a class="btn btn-outline-danger" href="../AdminController/AdminController.php?act=updm">Sửa</a>
+           <a class="btn btn-outline-danger" href="">Xoá</a>
+           <a class="btn btn-outline-danger" href="../AdminController/AdminController.php?act=adddm">Thêm</a>
+          </td>
+        </tr>
+        <tr>
+            <td>DM02</td>
+            <td>Áo Gucci</td>
+            <td><img src="" alt="anh"></td>
+            <td> Hàng Đẹp,Máy khoẻ sử dụng bền</td>
+            <td>Còn Đủ</td>
+            <td>
+            <a href="">Sửa</a>
+            <a href="">Xoá</a>
+            <a href="../AdminController/AdminController.php?act=adddm">Thêm</a>
+            </td>
+          </tr>
+
+        <tr>
+          <td>DM03</td>
+          <td>Áo D$G</td>
+          <td><img src="" alt="anh"></td>
+          <td> Hàng Đẹp,Máy khoẻ sử dụng bền</td>
+          <td>Còn Đủ</td>
+          <td>
+           <a href="">Sửa</a>
+           <a href="">Xoá</a>
+           <a href="">Thêm</a>
+          </td>
+        </tr>
+        
+        <tr>
+            <td>DM04</td>
+            <td>Áo Paris</td>
+            <td><img src="" alt="anh"></td>
+            <td> Hàng Đẹp,Máy khoẻ sử dụng bền</td>
+            <td>Còn Đủ</td>
+            <td>
+            <a href="">Sửa</a>
+            <a href="">Xoá</a>
+            <a href="">Thêm</a>
+            </td>
+          </tr>
+
+         <tr>
+          <td>DM05</td>
+          <td>Áo LV</td>
+          <td><img src="" alt="anh"></td>
+          <td> Hàng Đẹp,Máy khoẻ sử dụng bền</td>
+          <td>Còn Đủ</td>
+          <td>
+           <a href="">Sửa</a>
+           <a href="">Xoá</a>
+           <a href="">Thêm</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td>06</td>
+          <td>Quần Givenchi</td>
+          <td><img src="" alt="anh"></td>
+          <td> Hàng Đẹp,Máy khoẻ sử dụng bền</td>
+          <td>Còn Đủ</td>
+          <td>
+           <a href="">Sửa</a>
+           <a href="">Xoá</a>
+           <a href="">Thêm</a>
+          </td>
+        </tr>
+        <tr>
+            <td>07</td>
+            <td>Quần Gucci</td>
+            <td><img src="" alt="anh"></td>
+            <td> Hàng Đẹp,Máy khoẻ sử dụng bền</td>
+            <td>Còn Đủ</td>
+            <td>
+            <a href="">Sửa</a>
+            <a href="">Xoá</a>
+            <a href="">Thêm</a>
+            </td>
+          </tr>
+
+        <tr>
+          <td>08</td>
+          <td>Quần D$G</td>
+          <td><img src="" alt="anh"></td>
+          <td> Hàng Đẹp,Máy khoẻ sử dụng bền</td>
+          <td>Còn Đủ</td>
+          <td>
+           <a href="">Sửa</a>
+           <a href="">Xoá</a>
+           <a href="">Thêm</a>
+          </td>
+        </tr>
+        
+        <tr>
+            <td>09</td>
+            <td>Quần Paris</td>
+            <td><img src="" alt="anh"></td>
+            <td> Hàng Đẹp,Máy khoẻ sử dụng bền</td>
+            <td>Còn Đủ</td>
+            <td>
+            <a href="">Sửa</a>
+            <a href="">Xoá</a>
+            <a href="">Thêm</a>
+            </td>
+          </tr>
+
+         <tr>
+          <td>10</td>
+          <td>Quần LV</td>
+          <td><img src="" alt="anh"></td>
+          <td> Hàng Đẹp,Máy khoẻ sử dụng bền</td>
+          <td>Còn Đủ</td>
+          <td>
+           <a href="">Sửa</a>
+           <a href="">Xoá</a>
+           <a href="">Thêm</a>
+          </td>
+        </tr>
+       
         </tbody>
         <tfoot>
         <tr>

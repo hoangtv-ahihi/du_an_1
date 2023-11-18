@@ -88,7 +88,7 @@ switch ($act){
             $trangthai = $_POST['trangthai'];
 
             $filename = $_FILES['img']['name'];
-            $target_dir = "../app/public/images";
+            $target_dir = "../images";
             $target_file = $target_dir . basename($_FILES["img"]["name"]);
 
             if (move_uploaded_file($_FILES["img"]["tmp_name"], $target_file)) {
