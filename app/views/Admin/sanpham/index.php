@@ -32,9 +32,9 @@
           <td>DM01</td>
           <td>Còn hàng</td>
           <td>
-           <a href="">Sửa</a>
-           <a href="">Xoá</a>
-           <a href="">Thêm</a>
+           <a class="btn btn-outline-danger" href="../AdminController/AdminController.php?act=upsp">Sửa</a>
+           <a class="btn btn-outline-danger" href="">Xoá</a>
+           <a  class="btn btn-outline-danger" href="../AdminController/AdminController.php?act=addsp">Thêm</a>
           </td>
         </tr>
         <tr>

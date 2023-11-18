@@ -1,7 +1,7 @@
 <div class="content-wrapper">
 <div class="card card-primary">
             <div class="card-header">
-              <h3 class="card-title">Sửa Danh Mục</h3>
+              <h3 class="card-title">Sửa Bình Luận</h3>
 
               <div class="card-tools">
                 <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
@@ -11,19 +11,27 @@
             </div>
             <div class="card-body">
             <div class="form-group">
-                <label for="inputName">Mã danh mục</label>
+                <label for="inputName">Mã Bình Luận</label>
                 <input type="text" id="inputName" class="form-control" value="">
               </div>
               <div class="form-group">
-                <label for="inputName">Tên Danh Mục</label>
+                <label for="inputName">Mã Khách Hàng</label>
                 <input type="text" id="inputName" class="form-control" value="">
               </div>
               <div class="form-group">
-                <label for="inputDescription">Ảnh Danh Mục</label>
-                <input type="file">
+                <label for="inputName">Mã Sản Phẩm</label>
+                <input type="text" id="inputName" class="form-control" value="">
               </div>
               <div class="form-group">
-                <label for="inputStatus">Mô Tả</label>
+                <label for="inputName">Nội Dung</label>
+                <input type="text" id="inputName" class="form-control" value="">
+              </div>
+              <div class="form-group">
+                <label for="inputName">Điểm</label>
+                <input type="text" id="inputName" class="form-control" value="">
+              </div>
+              <div class="form-group">
+                <label for="inputStatus">Ngày Đánh Giá</label>
                 <input type="text" id="inputName" class="form-control" value="">
               </div>
               <div class="form-group">
@@ -34,8 +42,7 @@
                   <option>Không Hoạt Dộng</option>              
                 </select>
               </div>
-
-              <button type="button" class="btn btn-outline-danger">Sửa Danh Mục</button>
+              <button type="button" class="btn btn-outline-danger">Sửa Bình Luận</button>
             </div>
             <!-- /.card-body -->
           </div>

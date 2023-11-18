@@ -30,9 +30,9 @@
           <td><img src="" alt="anh"></td>
           <td>HĐ</td>
           <td>
-           <a href="">Sửa</a>
+           <a href="../AdminController/AdminController.php?act=upht">Sửa</a>
            <a href="">Xoá</a>
-           <a href="">Thêm</a>
+           <a href="../AdminController/AdminController.php?act=addht">Thêm</a>
           </td>
         </tr>
         <tr>

@@ -34,9 +34,9 @@
           <td>1000</td>
           <td>Hoạt Động</td>
           <td>
-           <a href="">Sửa</a>
+           <a href="../AdminController/AdminController.php?act=upbt">Sửa</a>
            <a href="">Xoá</a>
-           <a href="">Thêm</a>
+           <a href="../AdminController/AdminController.php?act=addbt">Thêm</a>
           </td>
         </tr>
         <tr>

@@ -30,9 +30,9 @@
           <td>1.500.000vnđ</td>
           <td>Còn Đủ</td>
           <td>
-           <a href="">Sửa</a>
+           <a href="../AdminController/AdminController.php?act=upctdh">Sửa</a>
            <a href="">Xoá</a>
-           <a href="">Thêm</a>
+           <a href="../AdminController/AdminController.php?act=addctdh">Thêm</a>
           </td>
         </tr>
         <tr>

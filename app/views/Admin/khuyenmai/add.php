@@ -1,7 +1,7 @@
 <div class="content-wrapper">
 <div class="card card-primary">
             <div class="card-header">
-              <h3 class="card-title">Sửa Sản Phẩm</h3>
+              <h3 class="card-title">Thêm thông Khuyến mãi</h3>
 
               <div class="card-tools">
                 <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
@@ -11,47 +11,39 @@
             </div>
             <div class="card-body">
             <div class="form-group">
-                <label for="inputName">Mã Sản Phẩm</label>
+                <label for="inputName">Mã khuyến mãi</label>
                 <input type="text" id="inputName" class="form-control" value="">
               </div>
               <div class="form-group">
-                <label for="inputName">Tên Sản Phẩm</label>
+                <label for="inputName">Tên Khuyến mãi</label>
                 <input type="text" id="inputName" class="form-control" value="">
               </div>
               <div class="form-group">
-                <label for="inputDescription">Ảnh sản phẩm</label>
-                <input type="file">
-              </div>
-              <div class="form-group">
-                <label for="inputName">Mô Tả Sản Phẩm</label>
+                <label for="inputStatus">Phần trăm khuyến mãi</label>
                 <input type="text" id="inputName" class="form-control" value="">
               </div>
               <div class="form-group">
-                <label for="inputStatus">Mô Tả</label>
-                <input type="text" id="inputName" class="form-control" value="">
+                <label for="inputClientCompany">Ngày bắt đầu</label>
+                <input type="text" id="inputClientCompany" class="form-control" value="">
               </div>
               <div class="form-group">
-                <label for="inputStatus">Ngày Nhập</label>
-                <input type="text" id="inputName" class="form-control" value="">
+                <label for="inputClientCompany">Ngày kết thúc</label>
+                <input type="text" id="inputClientCompany" class="form-control" value="">
               </div>
               <div class="form-group">
-                <label for="inputStatus">Số Lượng Sản Phẩm</label>
-                <input type="text" id="inputName" class="form-control" value="">
-              </div>
-              <div class="form-group">
-                <label for="inputName">Mã danh mục</label>
-                <input type="text" id="inputName" class="form-control" value="">
+                <label for="inputClientCompany">Mô tả</label>
+                <input type="text" id="inputClientCompany" class="form-control" value="">
               </div>
               <div class="form-group">
                 <label for="inputProjectLeader">Trạng thái</label>
                 <select id="inputStatus" class="form-control custom-select">
                   <option disabled>Chọn 1</option>
-                  <option>Còn hàng</option>
-                  <option>Hết hàng</option>              
+                  <option>Còn Khuyến mãi</option>
+                  <option>Hết Khuyến mãi</option>              
                 </select>
               </div>
 
-              <button type="button" class="btn btn-outline-danger">Sửa Sản Phẩm</button>
+              <button type="button" class="btn btn-outline-danger">Thêm Khuyến mãi</button>
             </div>
             <!-- /.card-body -->
           </div>

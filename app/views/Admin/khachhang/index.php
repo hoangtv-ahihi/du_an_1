@@ -34,9 +34,9 @@
           <td>Bắc giang</td>
           <td>Hoạt Động</td>
           <td>
-           <a href="">Sửa</a>
+           <a href="../AdminController/AdminController.php?act=upkh">Sửa</a>
            <a href="">Xoá</a>
-           <a href="">Thêm</a>
+           <a href="../AdminController/AdminController.php?act=addkh">Thêm</a>
           </td>
         </tr>
         <tr>

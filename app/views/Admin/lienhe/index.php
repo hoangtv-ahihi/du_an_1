@@ -24,9 +24,9 @@
           <td>Shop ơi áo đẹp quá vải sịn thoáng mát lên dáng rất dì và này lọ</td>
           <td>Hoạt Động</td>
           <td>
-           <a href="">Sửa</a>
+           <a href="../AdminController/AdminController.php?act=uplh">Sửa</a>
            <a href="">Xoá</a>
-           <a href="">Thêm</a>
+           <a href="../AdminController/AdminController.php?act=addlh">Thêm</a>
           </td>
         </tr>
         <tr>
@@ -37,7 +37,7 @@
           <td>
            <a href="">Sửa</a>
            <a href="">Xoá</a>
-           <a href="">Thêm</a>
+           <a href="../AdminController/AdminController.php?act=addlh">Thêm</a>
           </td>
         </tr>
         <tr>

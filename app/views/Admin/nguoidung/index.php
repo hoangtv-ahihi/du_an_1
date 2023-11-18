@@ -36,9 +36,9 @@
           <td>PQ01</td>
           <td>Hoạt Động</td>
           <td>
-           <a href="">Sửa</a>
+           <a href="../AdminController/AdminController.php?act=upnd">Sửa</a>
            <a href="">Xoá</a>
-           <a href="">Thêm</a>
+           <a href="../AdminController/AdminController.php?act=addnd">Thêm</a>
           </td>
         </tr>
         <tr>

@@ -28,9 +28,9 @@
           <td>VH01</td>
           <td>Còn Đủ</td>
           <td>
-           <a href="">Sửa</a>
+           <a href="../AdminController/AdminController.php?act=updh">Sửa</a>
            <a href="">Xoá</a>
-           <a href="">Thêm</a>
+           <a href="../AdminController/AdminController.php?act=adddh">Thêm</a>
           </td>
         </tr>
         <tr>

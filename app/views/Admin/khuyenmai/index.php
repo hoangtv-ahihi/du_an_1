@@ -30,9 +30,9 @@
           <td>Khuyễn mãi cực sâu</td>
           <td>Hoạt Động</td>
           <td>
-           <a href="">Sửa</a>
+           <a href="../AdminController/AdminController.php?act=upkm">Sửa</a>
            <a href="">Xoá</a>
-           <a href="">Thêm</a>
+           <a href="../AdminController/AdminController.php?act=addkm">Thêm</a>
           </td>
         </tr>
         <tr>
@@ -46,7 +46,7 @@
           <td>
            <a href="">Sửa</a>
            <a href="">Xoá</a>
-           <a href="">Thêm</a>
+           <a href="../AdminController/AdminController.php?act=addkm">Thêm</a>
           </td>
         </tr>
         <tr>

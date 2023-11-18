@@ -1,7 +1,7 @@
 <div class="content-wrapper">
 <div class="card card-primary">
             <div class="card-header">
-              <h3 class="card-title">Sửa Danh Mục</h3>
+              <h3 class="card-title">Thêm Banner</h3>
 
               <div class="card-tools">
                 <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
@@ -11,19 +11,19 @@
             </div>
             <div class="card-body">
             <div class="form-group">
-                <label for="inputName">Mã danh mục</label>
+                <label for="inputName">Mã Banner</label>
                 <input type="text" id="inputName" class="form-control" value="">
               </div>
               <div class="form-group">
-                <label for="inputName">Tên Danh Mục</label>
+                <label for="inputName">Tên Banner</label>
                 <input type="text" id="inputName" class="form-control" value="">
               </div>
               <div class="form-group">
-                <label for="inputDescription">Ảnh Danh Mục</label>
+                <label for="inputDescription">Ảnh Banner</label>
                 <input type="file">
               </div>
               <div class="form-group">
-                <label for="inputStatus">Mô Tả</label>
+                <label for="inputStatus">Link</label>
                 <input type="text" id="inputName" class="form-control" value="">
               </div>
               <div class="form-group">
@@ -35,7 +35,7 @@
                 </select>
               </div>
 
-              <button type="button" class="btn btn-outline-danger">Sửa Danh Mục</button>
+              <button type="button" class="btn btn-outline-danger">Thêm Banner</button>
             </div>
             <!-- /.card-body -->
           </div>

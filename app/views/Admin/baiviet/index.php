@@ -26,9 +26,9 @@
           <td><img src="" alt="anh"></td>
           <td>Hoạt Động</td>
           <td>
-           <a href="">Sửa</a>
+           <a href="../AdminController/AdminController.php?act=upbv">Sửa</a>
            <a href="">Xoá</a>
-           <a href="">Thêm</a>
+           <a href="../AdminController/AdminController.php?act=addbv">Thêm</a>
           </td>
         </tr>
 

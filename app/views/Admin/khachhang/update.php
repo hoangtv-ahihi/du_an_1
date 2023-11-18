@@ -1,46 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
+<div class="content-wrapper">
+<div class="card card-primary">
+            <div class="card-header">
+              <h3 class="card-title">Sửa Khách Hàng</h3>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Khách Hàng Update</title>
+              <div class="card-tools">
+                <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                  <i class="fas fa-minus"></i>
+                </button>
+              </div>
+            </div>
+            <div class="card-body">
+            <div class="form-group">
+                <label for="inputName">Mã Khách Hàng</label>
+                <input type="text" id="inputName" class="form-control" value="">
+              </div>
+              <div class="form-group">
+                <label for="inputName">Tài Khoản</label>
+                <input type="text" id="inputName" class="form-control" value="">
+              </div> 
+              <div class="form-group">
+                <label for="inputName">Mật Khẩu</label>
+                <input type="text" id="inputName" class="form-control" value="">
+              </div>
+              <div class="form-group">
+                <label for="inputName">Họ tên</label>
+                <input type="text" id="inputName" class="form-control" value="">
+              </div>
+              <div class="form-group">
+                <label for="inputStatus">Ngày Sinh</label>
+                <input type="text" id="inputName" class="form-control" value="">
+              </div>
+              <div class="form-group">
+                <label for="inputStatus">Số Điện Thoại</label>
+                <input type="text" id="inputName" class="form-control" value="">
+              </div>
+              <div class="form-group">
+                <label for="inputStatus">Email</label>
+                <input type="text" id="inputName" class="form-control" value="">
+              </div>
+              <div class="form-group">
+                <label for="inputStatus">Địa chỉ</label>
+                <input type="text" id="inputName" class="form-control" value="">
+              </div>
+              <div class="form-group">
+                <label for="inputProjectLeader">Trạng thái</label>
+                <select id="inputStatus" class="form-control custom-select">
+                  <option disabled>Chọn 1</option>
+                  <option>Hoạt Động</option>
+                  <option>Không Hoạt Động</option>              
+                </select>
+              </div>
 
-    <!-- Latest compiled and minified CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</head>
-
-<body>
-    <div class="container">
-        <h1>Cập nhật Khách Hàng</h1>
-
-        <form action="" method="post">
-        <label for="name">Tên</label>
-            <input type="text" name="name" class="form-control">
-
-            <label for="email" class="mt-3">email Khách Hàng</label>
-            <input type="email" name="email" class="form-control">
-
-            <label for="quequan">Quê Quán</label>
-            <input type="text" name="quequan" class="form-control">
-
-            <label for="sdt">SDT</label>
-            <input type="text" name="sdt" class="form-control">
-
-            <label for="taikhoan">Tên Tài Khoản</label>
-            <input type="text" name="taikhoan" class="form-control">
-
-            <label for="password" class="mt-3">Mật Khẩu</label>
-            <input type="password" name="password" class="form-control">
-
-        
-
-            <button type="submit" name="btn-submit" class="btn btn-info mt-3">Submit</button>
-            <a href="/admin/users" class="btn btn-primary mt-3">Quay lại d/s</a>
-        </form>
-    </div>
-</body>
-
-</html>
+              <button type="button" class="btn btn-outline-danger">Sửa Khách Hàng</button>
+            </div>
+            <!-- /.card-body -->
+          </div>

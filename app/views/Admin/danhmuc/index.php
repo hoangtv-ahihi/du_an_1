@@ -26,9 +26,9 @@
           <td> Hàng Đẹp,Máy khoẻ sử dụng bền</td>
           <td>Còn Đủ</td>
           <td>
-           <a href="">Sửa</a>
-           <a href="">Xoá</a>
-           <a href="">Thêm</a>
+           <a class="btn btn-outline-danger" href="../AdminController/AdminController.php?act=updm">Sửa</a>
+           <a class="btn btn-outline-danger" href="">Xoá</a>
+           <a class="btn btn-outline-danger" href="../AdminController/AdminController.php?act=adddm">Thêm</a>
           </td>
         </tr>
         <tr>
@@ -40,7 +40,7 @@
             <td>
             <a href="">Sửa</a>
             <a href="">Xoá</a>
-            <a href="">Thêm</a>
+            <a href="../AdminController/AdminController.php?act=adddm">Thêm</a>
             </td>
           </tr>
 

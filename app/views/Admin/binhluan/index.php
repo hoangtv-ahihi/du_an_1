@@ -30,9 +30,9 @@
           <td>17/11/2023</td>
           <td>Hoạt Động</td>
           <td>
-           <a href="">Sửa</a>
+           <a href="../AdminController/AdminController.php?act=upbl">Sửa</a>
            <a href="">Xoá</a>
-           <a href="">Thêm</a>
+           <a href="../AdminController/AdminController.php?act=addbl">Thêm</a>
           </td>
         </tr>
         <tr>

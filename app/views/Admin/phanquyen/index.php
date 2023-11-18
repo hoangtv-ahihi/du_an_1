@@ -24,9 +24,9 @@
           <td>Người quản lý toàn bộ chức năng</td>
           <td>Hoạt Động</td>
           <td>
-           <a href="">Sửa</a>
+           <a href="../AdminController/AdminController.php?act=uppq">Sửa</a>
            <a href="">Xoá</a>
-           <a href="">Thêm</a>
+           <a href="../AdminController/AdminController.php?act=addpq">Thêm</a>
           </td>
         </tr>
         <tr>
