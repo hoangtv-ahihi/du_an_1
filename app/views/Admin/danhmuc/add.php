@@ -1,5 +1,6 @@
 <div class="content-wrapper">
 <div class="card card-primary">
+  <form action="AdminController.php?act=adddm" method="POST" enctype="multipart/form-data">
             <div class="card-header">
               <h3 class="card-title">Thêm Danh Mục</h3>
 
@@ -11,31 +12,31 @@
             </div>
             <div class="card-body">
             <div class="form-group">
-                <label for="inputName">Mã danh mục</label>
-                <input type="text" id="inputName" class="form-control" value="">
+                <label for="madm">Mã danh mục</label>
+                <input type="text" id="madm" name="iddm" class="form-control" value="">
               </div>
               <div class="form-group">
-                <label for="inputName">Tên Danh Mục</label>
-                <input type="text" id="inputName" class="form-control" value="">
+                <label for="tendm">Tên Danh Mục</label>
+                <input type="text" id="tendm" name="tendm"  class="form-control" value="">
               </div>
               <div class="form-group">
-                <label for="inputDescription">Ảnh Danh Mục</label>
-                <input type="file">
+                <label for="anhdm">Ảnh Danh Mục</label>
+                <input type="file" name="img">
               </div>
               <div class="form-group">
-                <label for="inputStatus">Mô Tả</label>
-                <input type="text" id="inputName" class="form-control" value="">
+                <label for="mota">Mô Tả</label>
+                <input type="text" id="mota" name="mota" class="form-control" value="">
               </div>
               <div class="form-group">
-                <label for="inputProjectLeader">Trạng thái</label>
-                <select id="inputStatus" class="form-control custom-select">
+                <label for="trangthai">Trạng thái</label>
+                <select id="trangthai" name="trangthai" class="form-control custom-select">
                   <option disabled>Chọn 1</option>
                   <option>Hoạt Động</option>
                   <option>Không Hoạt Dộng</option>              
                 </select>
               </div>
 
-              <button type="button" class="btn btn-outline-danger">Thêm Danh Mục</button>
-            </div>
+              <input type="submit" class="btn btn-outline-danger" name = "themdm" value="Thêm Danh Mục" required>
+              </form>
             <!-- /.card-body -->
           </div>

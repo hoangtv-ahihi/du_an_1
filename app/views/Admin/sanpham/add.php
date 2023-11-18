@@ -1,5 +1,6 @@
 <div class="content-wrapper">
 <div class="card card-primary">
+  <form action="AdminController.php?act=addsp" method="POST" enctype="multipart/form-data">
             <div class="card-header">
               <h3 class="card-title">Thêm Sản Phẩm</h3>
 
@@ -11,36 +12,32 @@
             </div>
             <div class="card-body">
             <div class="form-group">
-                <label for="inputName">Mã Sản Phẩm</label>
-                <input type="text" id="inputName" class="form-control" value="">
+                <label for="masp">Mã Sản Phẩm</label>
+                <input type="text" id="masp" class="form-control" value="">
               </div>
               <div class="form-group">
-                <label for="inputName">Tên Sản Phẩm</label>
-                <input type="text" id="inputName" class="form-control" value="">
+                <label for="tensp">Tên Sản Phẩm</label>
+                <input type="text" id="tensp" class="form-control" value="">
               </div>
               <div class="form-group">
-                <label for="inputDescription">Ảnh sản phẩm</label>
-                <input type="file">
+                <label for="anhsp">Ảnh sản phẩm</label>
+                <input type="file" id="anhsp" name="anhsp">
               </div>
               <div class="form-group">
-                <label for="inputName">Mô Tả Sản Phẩm</label>
-                <input type="text" id="inputName" class="form-control" value="">
+                <label for="motasp">Mô Tả Sản Phẩm</label>
+                <input type="text" id="motasp" class="form-control" value="">
               </div>
               <div class="form-group">
-                <label for="inputStatus">Mô Tả</label>
-                <input type="text" id="inputName" class="form-control" value="">
+                <label for="ngaynhapsp">Ngày Nhập</label>
+                <input type="text" id="ngaynhapsp" class="form-control" value="">
               </div>
               <div class="form-group">
-                <label for="inputStatus">Ngày Nhập</label>
-                <input type="text" id="inputName" class="form-control" value="">
+                <label for="soluongsp">Số Lượng Sản Phẩm</label>
+                <input type="text" id="soluongsp" class="form-control" value="">
               </div>
               <div class="form-group">
-                <label for="inputStatus">Số Lượng Sản Phẩm</label>
-                <input type="text" id="inputName" class="form-control" value="">
-              </div>
-              <div class="form-group">
-                <label for="inputName">Mã danh mục</label>
-                <input type="text" id="inputName" class="form-control" value="">
+                <label for="madm">Mã danh mục</label>
+                <input type="text" id="madm" class="form-control" value="">
               </div>
               <div class="form-group">
                 <label for="inputProjectLeader">Trạng thái</label>
@@ -51,7 +48,13 @@
                 </select>
               </div>
 
-              <button type="button" class="btn btn-outline-danger">Thêm Biến Thể</button>
+              <input  class="btn btn-outline-danger" type="submit" name ="themsp" value="Thêm Sản Phẩm">
             </div>
             <!-- /.card-body -->
+            </form>
           </div>
+          <?php
+if (isset($thongbao) && $thongbao != "") {
+  echo '<div class="container mt-3"><div class="alert alert-success" role="alert">' . $thongbao . '</div></div>';
+}
+?>

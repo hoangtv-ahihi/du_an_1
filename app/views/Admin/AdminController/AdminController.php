@@ -2,6 +2,9 @@
  include "../layout/header.php";
 include "../layout/navbar.php";
 include "../layout/boxleft.php";
+include "../../../models/danhmuc.php";
+include "../../../models/sanpham.php";
+include "../../../models/pdo.php";
 
 if (isset($_GET['act']) && ($_GET['act']!="")) {
 $act = $_GET['act'];
@@ -11,6 +14,23 @@ switch ($act){
         break;
 
     case 'adddm' :
+        if (isset($_POST['themdm'])) {
+            $tendm = $_POST['tendm'];
+            $mota = $_POST['mota'];
+            $trangthai = $_POST['trangthai'];
+
+            $filename = $_FILES['img']['name'];
+            $target_dir = "../images";
+            $target_file = $target_dir . basename($_FILES["img"]["name"]);
+
+            if (move_uploaded_file($_FILES["img"]["tmp_name"], $target_file)) {
+                echo "Thêm ảnh thành công";
+            } else {
+                echo "Không thêm được ảnh";
+            }
+            insert_danhmuc($tendm, $filename, $mota, $trangthai);
+            $thongbao = "Thêm thành công";
+        }
         include "../danhmuc/add.php";
         break;
      
@@ -59,6 +79,28 @@ switch ($act){
         break;
 
     case 'addsp': 
+        if (isset($_POST['themsp'])) {
+            $iddm = $_POST['iddm'];
+            $tensp = $_POST['tensp'];
+            $mota = $_POST['mota'];
+            $ngaynhap = $_POST['ngaynhap'];
+            $soluong = $_POST['soluong'];
+            $trangthai = $_POST['trangthai'];
+
+            $filename = $_FILES['img']['name'];
+            $target_dir = "../app/public/images";
+            $target_file = $target_dir . basename($_FILES["img"]["name"]);
+
+            if (move_uploaded_file($_FILES["img"]["tmp_name"], $target_file)) {
+                echo "Thêm ảnh thành công";
+            } else {
+                echo "Không thêm được ảnh";
+            }
+
+            insert_sanpham($tensp, $filename, $mota, $ngaynhap, $soluong,  $iddm, $trangthai);
+            $thongbao = "Thêm thành công";
+        }
+        $indexdm = loadAll();
         include '../sanpham/add.php';  
         break;
         
